@@ -1,2 +1,2 @@
 #!/bin/bash
-.c, .i, .s, etc., with .o.
+gcc -c $CFILE
