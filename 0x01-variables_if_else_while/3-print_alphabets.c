@@ -15,7 +15,7 @@ for (n = 'a'; n <= 'z'; n++)
 {
         putchar(n);
 }
-putchsr('\n');
+putchar('\n');
 
         return (0);
 
