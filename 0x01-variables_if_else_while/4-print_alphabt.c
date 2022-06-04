@@ -9,6 +9,7 @@
  */
 
 int main(void)
+/* return value goes here*/
 {
 int ch;
 ch = 'a';
@@ -16,12 +17,12 @@ while (ch <= 'z')
 {
 	if (ch == 'e')
 	{
-	putchar(ch++);
+	putchar(++ch);
 	ch++;
 	}
 	if (ch == 'q')
 	{
-	putchar(ch++);
+	putchar(++ch);
 	ch++;
 	}
 }
