@@ -17,7 +17,7 @@ while (ch <= 'z')
 {
 	if (ch == 'e' && ch =='q')
 	{
-	putchar("%d", ch);
+	putchar(ch);
 	}
 	ch++;
 }
