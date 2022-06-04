@@ -12,7 +12,8 @@ int main(void)
 /* return value goes here*/
 {
 int ch;
-while (ch = 'a'; ch <= 'z')
+ch = 'a';
+while (ch <= 'z')
 {
 	if (ch == 'e' && ch =='q')
 	{
