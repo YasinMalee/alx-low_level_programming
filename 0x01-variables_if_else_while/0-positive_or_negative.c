@@ -1,4 +1,4 @@
-#include <stdio>
+#include <stdio.h>
 {
 int n;
 srand(time(0));
