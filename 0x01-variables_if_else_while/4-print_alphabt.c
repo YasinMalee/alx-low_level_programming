@@ -12,20 +12,13 @@ int main(void)
 /* return value goes here*/
 {
 int ch;
-ch = 'a';
-while (ch <= 'z')
+while (ch = 'a'; ch <= 'z')
 {
-	if (ch == 'e')
+	if (ch == 'e' && ch =='q')
 	{
-	putchar(ch);
+	putchar("%d", ch);
 	}
-	++ch;
-
-	if (ch == 'q')
-	{
-	putchar(ch);
-	}
-	++ch;
+	ch++;
 }
 
 return (0);
