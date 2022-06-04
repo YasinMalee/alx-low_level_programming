@@ -3,7 +3,7 @@
 #include <time.h>
 
 /**
- * main- print all the letters except letter q and e
+ * main - print all the letters except letter q and e
  *
  * return: 0 (success)
  */
