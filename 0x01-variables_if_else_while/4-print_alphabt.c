@@ -14,12 +14,12 @@ int ch;
 ch = 'a';
 while (ch <= 'z')
 {
-	if (ch = 'e')
+	if (ch == 'e')
 	{
 	putchar(ch++);
 	ch++;
 	}
-	if (ch = 'q')
+	if (ch == 'q')
 	{
 	putchar(ch++);
 	ch++;
