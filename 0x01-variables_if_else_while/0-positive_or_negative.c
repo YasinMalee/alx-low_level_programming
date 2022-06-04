@@ -3,12 +3,14 @@
 #include<stdio.h>
 /** 
  * main - entry point
- *Return: Always 0 (Success)
+ *
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
 int n;
-int ln = n % 10;
+int ln	
+ln = n % 10;
 srand(time(0));
 n = rand() - RAND_MAX / 2;
 if (ln > 5)
