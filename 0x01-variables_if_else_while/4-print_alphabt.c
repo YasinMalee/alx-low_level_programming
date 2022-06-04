@@ -16,7 +16,13 @@ while (ch <= 'z')
 {
 	if (ch = 'e')
 	{
-	putchar(++ch);
+	putchar(ch);
+	++ch;
+	}
+	if (ch = 'q')
+	{
+		putchar(ch);
+		++ch;
 	}
 }
 
