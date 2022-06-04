@@ -9,9 +9,7 @@
  */
 
 int main(void)
-/* main- Print alphabet*/
 {
-
 int ch;
 
 for (ch = 'a'; ch <= 'z'; ch++)
