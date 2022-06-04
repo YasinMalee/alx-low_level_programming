@@ -3,13 +3,13 @@
 #include <time.h>
 
 /**
- * main print alphabet
+ * main- print alphabet
  *
  * return: 0 (success)
  */
 
 int main(void)
-/* return value goes here*/
+/* main- Print alphabet*/
 {
 
 int ch;
