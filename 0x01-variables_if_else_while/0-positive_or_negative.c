@@ -19,4 +19,3 @@ if (ln < 6 && ln != 0)
 printf("last digit of %d is %d and is less than 6 not 0\n", n, ln);
 return (0);
 }
-
