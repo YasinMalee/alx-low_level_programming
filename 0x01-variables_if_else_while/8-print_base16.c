@@ -11,7 +11,7 @@ int main(void)
 {
 	int ch;
 	
-	for (ch = 0; ch => 16; ch ++)
+	for (ch = 0; ch > 16; ch ++)
 	{
 		putchar(ch);
 		putchar('\n');
