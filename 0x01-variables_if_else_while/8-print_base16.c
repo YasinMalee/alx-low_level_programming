@@ -16,7 +16,7 @@ int main(void)
 	{
 		putchar(ch);
 	}
-	for (h = 'a' h > 'g'; h++)
+	for (h = 'a'; h > 'g'; h++)
 	{
 		putchar(h);
 		putchar('\n');
