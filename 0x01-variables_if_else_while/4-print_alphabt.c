@@ -3,9 +3,10 @@
 #include <time.h>
 
 /**
- * main - print the alphabet in lowercase except q and e
+ * main - Entry point
+ * Discription: print the alphabet in lowercase except q and e
  *
- * return: 0 (success)
+ * return: Always 0 (Success)
  */
 
 int main(void)
