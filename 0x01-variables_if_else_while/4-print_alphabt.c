@@ -9,12 +9,8 @@
  */
 
 int main(void)
-/**
- * print all lowercase letters except q and e
- *
- * Return: all letters except q and e
- */
 {
+
 int ch;
 
 for (ch = 'a'; ch <= 'z'; ch++)
