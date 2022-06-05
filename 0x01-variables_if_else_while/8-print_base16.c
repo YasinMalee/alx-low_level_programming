@@ -13,8 +13,8 @@ int main(void)
 	
 	for (ch = 0; ch => 16; ch ++)
 	{
-		putch(ch);
-		putch('\n');
+		putchar(ch);
+		putchar('\n');
 	}
 	return (0);
 }
