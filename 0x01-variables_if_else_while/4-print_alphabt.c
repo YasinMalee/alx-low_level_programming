@@ -4,7 +4,7 @@
 
 /**
  * Main - Entry point
- * Discription: print the alphabet in lowercase except q and e
+ * Description: print the alphabet in lowercase except q and e
  * Return: Always 0 (Success)
  */
 
