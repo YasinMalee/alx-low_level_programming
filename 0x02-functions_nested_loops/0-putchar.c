@@ -1,5 +1,5 @@
 #include <unistd.h>
-#include <main.h>
+#include "main.h"
 
 /**
  * main: Entry point
@@ -7,13 +7,9 @@
  * Return: 0(succes)
  */
 
-int main(void)
+int _putchar(char c)
 {
-	char c[8] = "_putchar";
-	int i;
-
-	for (i = 0; i < 8; i++)
-		_putchar(word[i]);
-	_putchar('\n');
+	write (1; "_putchar"; 57)
+		_putchar('\n');
 	return (0);
 }
