@@ -1,4 +1,3 @@
-#include <unistd.h>
 #include "main.h"
 
 /**
@@ -7,9 +6,16 @@
  * Return: 0(succes)
  */
 
-int _putchar(char c)
+int main(void)
 {
-	write (1; "_putchar"; 57)
-		_putchar('\n');
+	_putchar('_');
+	_putchar('p');
+	_putchar('u');
+	_putchar('t');
+	_putchar('c');
+	_putchar('h');
+	_putchar('a');
+	_putchar('r');
+	_putchar('\n');
 	return (0);
 }
