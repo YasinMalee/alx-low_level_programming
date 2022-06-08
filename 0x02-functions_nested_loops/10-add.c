@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
-* Desvription -> adds two number
+* Desciription -> adds two number
 * @n : num1
 * @k : num 2
 * Return: n + k
