@@ -2,8 +2,8 @@
 
 /**
 * Desciription -> adds two integers 
-* @n : n
-* @k : k
+* @n : parameter 1
+* @k : parameter 2
 * Return: n + k
 */
 
