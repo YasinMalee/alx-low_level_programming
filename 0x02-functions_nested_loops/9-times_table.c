@@ -13,6 +13,10 @@ void times_table(void)
 		for (n = 0; n < 10; n++)
 		{
 			k = x * n;
+			if (n == 0)
+			{
+				_putchar(k + '0')
+			}
 				if (n != 0 && k < 10)
 				{
 					_putchar(',');
