@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
-* Desciription -> adds two number
-* @n : num1
-* @k : num 2
+* Desciription -> adds two integers 
+* @n : n
+* @k : k
 * Return: n + k
 */
 
