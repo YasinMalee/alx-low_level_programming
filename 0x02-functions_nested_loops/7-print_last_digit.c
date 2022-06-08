@@ -5,6 +5,7 @@
  *@n: passed arguments
  * Return: last digit
  */
+
 int print_last_digit(int n)
 {
 	int x;
