@@ -14,7 +14,7 @@ void jack_bauer(void)
 			if (time < 10)
 			{
 				_putchar('0');
-				_putchar(i + '0');
+				_putchar(time + '0');
 			}
 			else if (time >= 10)
 			{
