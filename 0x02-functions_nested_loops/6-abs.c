@@ -5,9 +5,9 @@
  * @n: parameter
  * Return: absolute value of numbers
  */
-int _abs(int y)
+int _abs(int n)
 {
-	if (y < 0)
-		y = -y;
-			return (y);
+	if (n < 0)
+		n = -n;
+			return (n);
 }
