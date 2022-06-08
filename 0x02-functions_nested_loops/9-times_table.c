@@ -15,7 +15,7 @@ void times_table(void)
 			k = x * n;
 			if (n == 0)
 			{
-				_putchar(k + '0')
+				_putchar(k + '0');
 			}
 				if (n != 0 && k < 10)
 				{
