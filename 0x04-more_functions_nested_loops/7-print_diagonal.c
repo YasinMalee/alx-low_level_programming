@@ -1,26 +1,23 @@
 #include "main.h"
 
 /**
- * print_diagonal - function that draw diagonal line
- * @n: integer parameter
- */
-
+* print_diagonal -> prints line
+* @n: integer parameter
+*/
 void print_diagonal(int n)
 {
-	int h, y;
+	int ch, y;
 
 	if (n <= 0)
-	{
 		_putchar('\n');
-		else
+	else
+	{
+		for (ch = 0; ch < n; ch++)
 		{
-			for (h = 0; h < n; h++)
-			{
-			for (y = 0; y < h; y++)
-				_putchar('');
+			for (y = 0; y < ch; y++)
+				_putchar(' ');
 			_putchar(92);
 			_putchar('\n');
-			}
 		}
 	}
 }
