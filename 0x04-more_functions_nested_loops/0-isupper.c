@@ -8,5 +8,11 @@
 
 int _isupper(int c)
 {
-	return (c >= 'A' && c <= 'Z');
+	c = 'A'; C => 'Z'; c++;
+	if (c == 'C')
+	{
+	return (1)
+	}
+	else
+		return(0);
 }
