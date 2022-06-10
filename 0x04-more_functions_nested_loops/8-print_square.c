@@ -1,14 +1,14 @@
 #include "main.h"
 
 /**
-* print_diagonal -> prints line
-* @n: integer parameter
+* print_square -> prints line
+* @size: integer parameter
 */
 
 void print_square(int size)
 {
 	int ch, y;
-	
+
 	if (size <= 0)
 		_putchar('\n');
 	else
