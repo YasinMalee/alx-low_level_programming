@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
-* print_triangle -> prints line
-* @size: integer parameter
-*/
+ * print_triangle -> prints line
+ * @size: integer parameter
+ */
 
 void print_triangle(int size)
 {
