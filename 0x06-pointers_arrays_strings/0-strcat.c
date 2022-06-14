@@ -1,10 +1,10 @@
 #include "main.h"
 
 /**
- * _starcat -> this is strcat function
+ * _strcat -> this is strcat function
  * @dest: first parameter
  * @src: second parameter
- * Return:  string
+ * Return: string
  */
 
 char *_strcat(char *dest, char *src)
