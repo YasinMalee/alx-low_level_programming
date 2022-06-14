@@ -1,12 +1,23 @@
 #include "main.h"
-#include <string.h>
+
+/**
+ * _starcat -> this is strcat function
+ * @dest: first parameter
+ * @src: second parameter
+ * Return:  string
+ */
 
 char *_strcat(char *dest, char *src)
 {
-    char dest[] = "Hello ";
-    char src[] = "World!";
+    int l = 0, ch;
 
-    strcat(dest,src);
-    _putchar("%s\n", dest);
-    return 0;
+	while (dest[])
+		l++;
+	for (ch = 0; src[ch] != 0; ch++)
+	{
+		dest[l] = src[ch];
+		l += 1;
+	}
+    dest[l] = '\0';
+    return (dest);
 }
