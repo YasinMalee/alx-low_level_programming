@@ -15,11 +15,11 @@ void print_rev(char *s)
 	while (s[ln] != '\0')
 		ln++;
 	l = ln - 1;
-	for (i = 0;i < ln;; i++)
+	for (i = 0;i < ln; i++)
 	{
 		t = s[i];
 		s[i] = s[l];
 		s[l] = t;
-		l = -= 1;
+		l -= 1;
 	}
 }
