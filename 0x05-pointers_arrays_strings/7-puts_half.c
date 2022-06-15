@@ -1,20 +1,20 @@
 #include "main.h"
+#include <string.h>
 
 /**
 * puts_half -> puts half
-* @str: string param
+* @str: string parameter
 */
 void puts_half(char *str)
 {
-	int n, ch, d;
+	int x, y, i;
 
-	n = strlen(str);
-	if (n % 2 == 1)
-		ch = n / 2 + 1;
+	x = strlen(str);
+	if (x % 2 == 1)
+		y = x / 2 + 1;
 	else
-		ch = n / 2;
-	for (d = ch; d < n; d++)
-
-		_putchar(str[d]);
+		y = x / 2;
+	for (i = y; i < x; i++)
+		_putchar(str[i]);
 	_putchar('\n');
 }
