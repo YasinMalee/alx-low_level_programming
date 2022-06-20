@@ -1,24 +1,19 @@
-#include <stdio.h> 
-#include <string.h> 
+#include "main.h"
+#include <string.h>
 
-  
+/**
+* _memset -> this memory set function
+* @s: string
+* @b: a charcter
+* @n: an integer
+* Return: a string
+*/
+char *_memset(char *s, char b, unsigned int n)
+{
+	unsigned int r;
 
-int main() 
-{ 
+	for (r = 0; r < n; r++)
+		s[r] = b;
 
-    char str[50] = "GeeksForGeeks is for programming geeks."; 
-
-    printf("\nBefore memset(): %s\n", str); 
-
-  
-
-    // Fill 8 characters starting from str[13] with '.' 
-
-    memset(str + 13, '.', 8*sizeof(char)); 
-
-  
-
-    printf("After memset():  %s", str); 
-
-    return 0; 
-} 
+	return (s);
+}
