@@ -4,7 +4,6 @@
  * @dest: where to copy the memory to
  * @n: the number of bytes
  * @src: the memory area to copy from
- *
  * Return: a pointer
  */
 
