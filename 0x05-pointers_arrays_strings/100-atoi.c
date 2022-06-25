@@ -5,7 +5,6 @@
  * @s: pointer to convert
  * Return: integer
  */
-
 int _atoi(char *s)
 {
 	int k = 0;
@@ -31,9 +30,8 @@ int _atoi(char *s)
 		{
 			break;
 		}
+		k++;
 	}
-	k++;
-}
-ch *= min;
-return (ch);
+	ch *= min;
+	return (ch);
 }
