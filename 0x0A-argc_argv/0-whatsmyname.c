@@ -3,7 +3,7 @@
 /**
  * main - Function to print its own name
  * @argc: argc parameter
- * @rgv: array of a command listed
+ * @argv: array of a command listed
  * Return 0 for success
  */
 
