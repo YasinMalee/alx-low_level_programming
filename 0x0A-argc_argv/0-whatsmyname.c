@@ -1,9 +1,9 @@
 #include <stdio.h>
 
 /**
- * main - Function to print its own name
+ * main -> this is a Function to print its name
  * @argc: argc parameter
- * @argv: array of a command listed
+ * @asrgv: array of a command listed
  * Return 0 for success
  */
 
